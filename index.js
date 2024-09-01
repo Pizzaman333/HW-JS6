@@ -40,4 +40,11 @@ for (let i = 0; i < 1000000; i++) {
   }
 }
 
-
+let k = 0;
+while (k < 20) {
+  k += 1;
+  if (k % 3 === 0) {
+    continue;
+  }
+  console.log(k);
+}
